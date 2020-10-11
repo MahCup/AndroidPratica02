@@ -1,15 +1,14 @@
 package com.example.pratica02;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import java.text.DecimalFormat;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Tela2 extends AppCompatActivity {
 
@@ -58,7 +57,6 @@ public class Tela2 extends AppCompatActivity {
         } else {
             classificacao.setText("Obesidade Grau III (morbida)");
         }
-
 
     }
 
